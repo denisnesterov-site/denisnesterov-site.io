@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; 
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background: linear-gradient(180deg, #F47CDA 0%, rgba(244, 124, 218, 0.46) 400%);
+    height: 64px;
+}
+.adress{
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #0B0B0B;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header_about{
+    display: flex;
+    justify-content: space-between;
+}
+.phone{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    color: #0B0B0B;
+    display: block;
+    padding-top: 20px;
+    right: 100%;
+}
+.first_about{
+    background: url(img/background.jpg) center / cover;
+    height: 750px;
+}
+h1{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    color: #FFFFFF;
+    width: 520px;
+    height: 152px;  
+    padding-top: 350px;
+    padding-left: 60%;
+}
+.btn1{
+    width: 256px;
+    height: 62px;
+    border: 2px solid white;
+    margin-top: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color:rgba(244, 124, 218, 0);
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 800px;
+}
+.btn1 a{
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #FFFFFF;
+
+}
+.btn1:hover{
+    background: white;
+    transition: all 1s;
+}
+.btn1 a:hover{
+    color: black;
+    transition: all 1s;
+}
+h2{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #0B0B0B;
+    text-align: center;
+    margin-top: 133px;
+    padding-bottom: 82px;
+}
+.catalog_tabs{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.catalog_tab{
+    display: block;
+    width: 250px;
+    height: 63px;
+    border: 2px solid #0B0B0B;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #0B0B0B;
+    line-height: 61px;
+    text-align: center;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 0,5s;
+}
+.catalog_tab.active{
+    background-color: black;
+    color: white;
+    display: block;
+    width: 250px;
+    height: 63px;
+    border: 2px solid #0B0B0B;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 61px;
+    text-align: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.catalog_tab:hover{
+    box-shadow: 3px 3px 20px black;
+    border: none;
+}
+.catalog_item{
+    width: 229px;
+    height: 460px;
+    background: rgba(196, 196, 196, 0);
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px 0;
+}
+.item_img{
+    max-width: 100%;
+    height: 245px;
+    display: block;
+    margin: 0 auto;
+}
+.subtitle{
+    margin-top: 15px;
+    text-align: center;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.catalog_item hr{
+    border: 1px solid #000000;
+}
+.catalog_footer{
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 55px;
+    color: #000000;
+}
+.btn2{
+    display: block;
+    width: 135px;
+    height: 40px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin: 0 auto;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+    margin-top: 20px;
+}
+.btn2:hover{
+    background: black;
+    color: white;
+    transition: all 1s; 
+    cursor: pointer; 
+}
+.catalog_content{
+    display: inline-block;
+    margin: 0 34px;
+}
+
+.catalog{
+    display: none;
+}
+.catalog.active{
+    display: block;
+}
+.after_price{
+    margin-top: 120px;
+    border: 1px solid black;
+    width: 100%;
+}
+.map{
+    height: 600px;
+}
+.after_map{
+    border: 1px solid black;
+    width: 100%;
+    margin-bottom: 200px;
+}
+.slider{
+    padding-top: 100px;
+}
+.inner{
+    margin: 0 auto;
+    width: 552px;
+    position: relative;
+}
+.slick-prev{
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-55px);
+}
+.slick-prev img{
+    width: 30px;
+    height: 60px;
+}
+.slick-next{
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: translateX(575px);
+}
+.slick-next img{
+    width: 30px;
+    height: 60px;
+}
+.order{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(180deg, #F47CDA 0%, rgba(244, 124, 218, 0.46) 400%);
+}
+.order p{
+    text-align: center;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #000000;
+    transform: translateY(30%);
+}
+.form p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin-top: 40px;
+}
+.form input{
+    width: 379px;
+    display: block;
+    height: 50px;
+    margin: 0 auto;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-size: 36px;
+}
+.form button{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 67px;
+    text-align: center;
+    color: #000000;
+    width: 379px;
+    height: 69px;
+    background: rgba(255, 255, 255, 0);
+    border: 2px dashed #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    display: block;
+    margin: 50px auto 0 auto;
+}
+.form button:hover{
+    background-color: black;
+    color: white;
+    transition: all 1s;
+    border: 2px dashed white;
+}
+.after_form{
+    margin-top: 50px;
+    width: 100%;
+    border: 1px solid black;
+}
+.connection {
+    height: 70px;
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.connection a{
+    cursor: pointer;
+}
+.cart-content{
+    position: absolute;
+    left: 0;
+    top: 63px;
+    width: 490px;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+.cart-text{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #0B0B0B;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.cart-quantity {
+    position: absolute;
+    left: 210px;
+    
+    transform: translateY(-50%);
+    border-radius: 100%;
+    padding: 10px 2px 2px 2px;
+    min-height: 16px;
+    min-width: 16px;
+    font-size: 20px;
+    line-height: 1;
+    
+}
+.content{
+    padding-top: 90px;
+}
+.cart-content_list{
+    max-height: 330px;
+    overflow: auto;
+}
+.cart-product{
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+}
+.cart-product_img{
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.cart-product_title{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0B0B0B;
+    margin-bottom: 15px;
+    max-width: 280px;
+}
+.cart-product_price{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0B0B0B;
+}
+.cart-product_delete{
+    margin-left: auto;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    background-image: url('img/trash.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.cart-content_bottom{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+}
+.cart-content_fullprice{
+    display: flex;
+    flex-direction: column;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #0B0B0B;
+    
+}
+.fullprice{
+    margin-top: 8px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0B0B0B;
+}
+.cart-content_btn{
+    width: 256px;
+    height: 62px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0B0B0B;
+    background-color:rgba(244, 124, 218, 0);
+    cursor: pointer;
+}
+.cart-content_btn:hover{
+    background: black;
+    color: white;
+    transition: all 1s;
+}
+.cart.active:hover{
+    cursor: pointer;
+}
+.cart.active:hover .cart-content{
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s, visibility 0.3s;
+}

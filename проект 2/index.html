@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header_about">
+                <div class="header_cart cart active" tabindex="0">
+                    <div class="cart-text">
+                        Корзина
+                        <span class="cart-quantity">0</span> 
+                    </div>
+                    <div class="cart-content">
+                        <ul class="cart-content_list">
+                             <li class="cart-content_item">
+                                <!-- <article class="cart-content_product cart-product">
+                                    <img src="img/foto.jpg" class="cart-product_img">
+                                    <div class="cart-product_text">
+                                        <h3 class="cart-product_title">Большой букет из 21-й розы</h3>
+                                        <span class="cart-product_price">1000 р.</span>
+                                    </div>
+                                    <button class="cart-product_delete" aria-label="Удалить товар"></button>
+                                </article> -->
+                            </li> 
+                        </ul>
+                        <div class="cart-content_bottom">
+                            <div class="cart-content_fullprice">
+                                <span>Итого:</span>
+                                <span class="fullprice">0 р.</span>
+                            </div>
+                            <button class="cart-content_btn btn">Перейти в корзину</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <a class="adress" href="#map">
+                    г. Ижевск, ул. Ворошилова, 53, ТЦ Полет
+                </a>
+                <a class="phone" href="tel: 89821195736">
+                    89821195736
+                </a>
+            </div>
+        </div>
+    </header>
+    <section >
+        <div class="first_about">
+            <div class="container">
+                <h1>
+                    Доставка цветов, букетов, шаров.<br>
+                    Бесплатна доставка при заказе от 1500 рублей.
+                </h1>
+                <button class="btn1">
+                    <a href="#price">Посмотреть</a>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="slider">
+        <div class="container">
+            <div class="inner">
+                <div><img src="img/foto2.png"></div>
+                <div><img src="img/foto2.png"></div>
+                <div><img src="img/foto2.png"></div>
+                <div><img src="img/foto2.png"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2 id="price">
+                Ассортимент
+            </h2>
+            <ul class="catalog_tabs">
+                <li class="catalog_tab" data-tab="#tab1">Цветы</li>
+                <li class="catalog_tab" data-tab="#tab2">Букеты</li>
+                <li class="catalog_tab" data-tab="#tab3">Шары</li>
+                <li class="catalog_tab" data-tab="#tab4">Подарки</li>
+            </ul>
+            <div class="catalog" id = 'tab1'>
+            <div class="catalog_content"><div class="catalog_item">
+                    <img src="img/foto.jpg" alt="foto" class="item_img">
+                    <div class="subtitle">
+                        Цветы
+                    </div>
+                    <hr>
+                    <div class="catalog_footer">
+                        <div class="prices">
+                            Цена:
+                        </div>
+                        <div class="cost">
+                            1000 р.
+                        </div>
+                    </div>
+                    <hr>
+                    <button class="btn2">
+                        Заказать
+                    </button>
+            </div></div>
+            <div class="catalog_content"><div class="catalog_item">
+                <img src="img/foto.jpg" alt="foto" class="item_img">
+                <div class="subtitle">
+                    Цветы
+                </div>
+                <hr>
+                    <div class="catalog_footer">
+                        <div class="prices">
+                            Цена:
+                        </div>
+                        <div class="cost">
+                            1000 р.
+                        </div>
+                        
+                    </div>
+                <hr>
+                    <button class="btn2">
+                        Заказать
+                    </button>
+            </div></div>
+            <div class="catalog_content"><div class="catalog_item">
+                <img src="img/foto.jpg" alt="foto" class="item_img">
+                <div class="subtitle">
+                    Цветы
+                </div>
+                <hr>
+                    <div class="catalog_footer">
+                        <div class="prices">
+                            Цена:
+                        </div>
+                        <div class="cost">
+                            1000 р.
+                        </div>
+                        
+                    </div>
+                <hr>
+                    <button class="btn2">
+                        Заказать
+                    </button>
+            </div></div>
+            <div class="catalog_content"><div class="catalog_item">
+                <img src="img/foto.jpg" alt="foto" class="item_img">
+                <div class="subtitle">
+                    Цветы
+                </div>
+                <hr>
+                    <div class="catalog_footer">
+                        <div class="prices">
+                            Цена:
+                        </div>
+                        <div class="cost">
+                            1000 р.
+                        </div>
+                        
+                    </div>
+                <hr>
+                    <button class="btn2">
+                        Заказать
+                    </button>
+            </div></div>
+            </div>
+            <div class="catalog" id = tab2>
+            <div class="catalog_content"><div class="catalog_item">
+                        <img src="img/foto.jpg" alt="foto" class="item_img">
+                        <div class="subtitle">
+                            Букеты
+                        </div>
+                        <hr>
+                        <div class="catalog_footer">
+                            <div class="prices">
+                                Цена:
+                            </div>
+                            <div class="cost">
+                                1000 р.
+                            </div>
+                        </div>
+                        <hr>
+                        <button class="btn2">
+                            Заказать
+                        </button>
+            </div></div>
+            <div class="catalog_content"><div class="catalog_item">
+                    <img src="img/foto.jpg" alt="foto" class="item_img">
+                    <div class="subtitle">
+                        Букеты
+                    </div>
+                    <hr>
+                        <div class="catalog_footer">
+                            <div class="prices">
+                                Цена:
+                            </div>
+                            <div class="cost">
+                                1000 р.
+                            </div>
+                            
+                        </div>
+                    <hr>
+                        <button class="btn2">
+                            Заказать
+                        </button>
+            </div></div>
+            <div class="catalog_content"><div class="catalog_item">
+                    <img src="img/foto.jpg" alt="foto" class="item_img">
+                    <div class="subtitle">
+                        Букеты
+                    </div>
+                    <hr>
+                        <div class="catalog_footer">
+                            <div class="prices">
+                                Цена:
+                            </div>
+                            <div class="cost">
+                                1000 р.
+                            </div>
+                            
+                        </div>
+                    <hr>
+                        <button class="btn2">
+                            Заказать
+                        </button>
+            </div></div>
+            <div class="catalog_content"><div class="catalog_item">
+                    <img src="img/foto.jpg" alt="foto" class="item_img">
+                    <div class="subtitle">
+                        Букеты
+                    </div>
+                    <hr>
+                        <div class="catalog_footer">
+                            <div class="prices">
+                                Цена:
+                            </div>
+                            <div class="cost">
+                                1000 р.
+                            </div>
+                            
+                        </div>
+                    <hr>
+                        <button class="btn2">
+                            Заказать
+                        </button>
+            </div></div>
+            </div>
+            <div class="catalog" id="tab3">
+            <div class="catalog_content"><div class="catalog_item">
+                        <img src="img/foto.jpg" alt="foto" class="item_img">
+                        <div class="subtitle">
+                            Шары
+                        </div>
+                        <hr>
+                        <div class="catalog_footer">
+                            <div class="prices">
+                                Цена:
+                            </div>
+                            <div class="cost">
+                                1000 р.
+                            </div>
+                        </div>
+                        <hr>
+                        <button class="btn2">
+                            Заказать
+                        </button>
+            </div></div>
+            <div class="catalog_content"><div class="catalog_item">
+                    <img src="img/foto.jpg" alt="foto" class="item_img">
+                    <div class="subtitle">
+                        Шары
+                    </div>
+                    <hr>
+                        <div class="catalog_footer">
+                            <div class="prices">
+                                Цена:
+                            </div>
+                            <div class="cost">
+                                1000 р.
+                            </div>
+                            
+                        </div>
+                    <hr>
+                        <button class="btn2">
+                            Заказать
+                        </button>
+            </div></div>
+            <div class="catalog_content"><div class="catalog_item">
+                    <img src="img/foto.jpg" alt="foto" class="item_img">
+                    <div class="subtitle">
+                        Шары
+                    </div>
+                    <hr>
+                        <div class="catalog_footer">
+                            <div class="prices">
+                                Цена:
+                            </div>
+                            <div class="cost">
+                                1000 р.
+                            </div>
+                            
+                        </div>
+                    <hr>
+                        <button class="btn2">
+                            Заказать
+                        </button>
+            </div></div>
+            <div class="catalog_content"><div class="catalog_item">
+                    <img src="img/foto.jpg" alt="foto" class="item_img">
+                    <div class="subtitle">
+                        Шары
+                    </div>
+                    <hr>
+                        <div class="catalog_footer">
+                            <div class="prices">
+                                Цена:
+                            </div>
+                            <div class="cost">
+                                1000 р.
+                            </div>
+                            
+                        </div>
+                    <hr>
+                        <button class="btn2">
+                            Заказать
+                        </button>
+            </div></div>
+            </div>
+            <div class="catalog" id="tab4">
+            <div class="catalog_content"><div class="catalog_item">
+                        <img src="img/foto.jpg" alt="foto" class="item_img">
+                        <div class="subtitle">
+                            Подарки
+                        </div>
+                        <hr>
+                        <div class="catalog_footer">
+                            <div class="prices">
+                                Цена:
+                            </div>
+                            <div class="cost">
+                                1000 р.
+                            </div>
+                        </div>
+                        <hr>
+                        <button class="btn2">
+                            Заказать
+                        </button>
+            </div></div>
+            <div class="catalog_content"><div class="catalog_item">
+                    <img src="img/foto.jpg" alt="foto" class="item_img">
+                    <div class="subtitle">
+                        Подарки
+                    </div>
+                    <hr>
+                        <div class="catalog_footer">
+                            <div class="prices">
+                                Цена:
+                            </div>
+                            <div class="cost">
+                                1000 р.
+                            </div>
+                            
+                        </div>
+                    <hr>
+                        <button class="btn2">
+                            Заказать
+                        </button>
+            </div></div>
+            <div class="catalog_content"><div class="catalog_item">
+                    <img src="img/foto.jpg" alt="foto" class="item_img">
+                    <div class="subtitle">
+                        Подарки
+                    </div>
+                    <hr>
+                        <div class="catalog_footer">
+                            <div class="prices">
+                                Цена:
+                            </div>
+                            <div class="cost">
+                                1000 р.
+                            </div>
+                            
+                        </div>
+                    <hr>
+                        <button class="btn2">
+                            Заказать
+                        </button>
+            </div></div>
+            <div class="catalog_content"><div class="catalog_item">
+                    <img src="img/foto.jpg" alt="foto" class="item_img">
+                    <div class="subtitle">
+                        Подарки
+                    </div>
+                    <hr>
+                        <div class="catalog_footer">
+                            <div class="prices">
+                                Цена:
+                            </div>
+                            <div class="cost">
+                                1000 р.
+                            </div>
+                            
+                        </div>
+                    <hr>
+                        <button class="btn2">
+                            Заказать
+                        </button>
+            </div></div>
+            </div>
+        </div>
+    </section>
+    <section class="map" id="map">
+        <hr class="after_price">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2180.1793499513724!2d53.267104315844094!3d56.877167812180886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43e139b0e6f20d1f%3A0x337e408c3a5de20c!2z0YPQuy4g0JLQvtGA0L7RiNC40LvQvtCy0LAsIDUzLCDQmNC20LXQstGB0LosINGA0LXRgdC_0YPQsdC70LjQutCwINCj0LTQvNGD0YDRgtC40Y8sIDQyNjA1Mw!5e0!3m2!1sru!2sru!4v1631438658618!5m2!1sru!2sru" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section class="order">
+        <div class="container">
+            <p>
+                Сделать заказ
+            </p>
+        </div>
+    </section>
+    <section class="form">
+        <p>
+            Ваше имя:
+        </p>
+        <input type="text">
+        <p>
+            Электронная почта:
+        </p>
+        <input type="text">
+        <p>
+            Комментарий:
+        </p>
+        <input type="text">
+        <button>
+            Отправить
+        </button>
+        <hr class="after_form">
+    </section>
+    <footer>
+        <div class="container">
+            <div class="connection">
+                <a href="#"><img src="img/vk.svg"></a>
+                <a href="tel:89821195736"><img src="img/phone.svg"></a>
+            </div>
+        </div>
+    </footer>
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="slick.min.js"></script>
+<script src="script.js"></script>
+<script src="cart.js"></script> 
+</body>
+</html>
